@@ -8,7 +8,7 @@ export default defineConfig({
     checkDeadLinks: true,
   },
   // Setup the base directory for the website deployment
-  base: '/rspress-template/',
+  base: '/rspress-website-template/',
   root: path.join(__dirname, 'docs'),
   title: 'template-site',
   lang: 'en',
@@ -22,7 +22,7 @@ export default defineConfig({
   },
   themeConfig: {
     socialLinks: [
-      { icon: 'github', mode: 'link', content: 'https://github.com/willemJiang/rspress-template/' },
+      { icon: 'github', mode: 'link', content: 'https://github.com/bytedance/rspress-website-template/' },
     ],
     locales: [
       {
@@ -30,7 +30,7 @@ export default defineConfig({
         label: '简体中文',
         editLink: {
           docRepoBaseUrl:
-            'https://github.com/willemJiang/rspress-template/tree/main/docs',
+            'https://github.com/bytedance/rspress-website-template/tree/main/docs',
           text: '📝 在 GitHub 上编辑此页',
         },
         prevPageText: '上一篇',
@@ -42,7 +42,7 @@ export default defineConfig({
         label: 'English',
         editLink: {
           docRepoBaseUrl:
-            'https://github.com/willemJiang/rspress-template/tree/main/docs',
+            'https://github.com/bytedance/rspress-website-template/tree/main/docs',
           text: '📝 Edit this page on GitHub',
         },
       },
